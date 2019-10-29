@@ -107,5 +107,13 @@
     subprocess.Popen("./XCppHelpers/xmain.exe", cwd="./XCppHelpers/", shell = False, startupinfo = startupinfo)
   ```
 
-
-g++ -Wall -D
+## Build bash code
+* After static build
+  * https://www.sfml-dev.org/tutorials/2.5/compile-with-cmake.php#configuring-your-sfml-build
+  * set SFML_USE_STATIC_STD_LIBS enabled
+* Use following code to build static link xmain.exe
+  * replace [include path] and [lib path] with your own paths
+  ```
+  g++ tech-unwrap.cpp -o xmain.exe -DSFML_STATIC -I [include path] -L [lib path] -lsfml-graphics-s -lsfml-window-s -lsfml-audio-s -lsfml-system-s -lopengl32 -lwinmm -lgdi32 -lfreetype -ljpeg -lopenal32 -lflac -lvorbisenc -lvorbisfile -lvorbis -logg
+  ```
+* According to unknown reason, openal32.dll still need to be included to run.
