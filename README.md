@@ -106,3 +106,6 @@
     startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
     subprocess.Popen("./XCppHelpers/xmain.exe", cwd="./XCppHelpers/", shell = False, startupinfo = startupinfo)
   ```
+
+
+g++ -Wall -D

@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "tech-unwrap.cpp",
+        "-o",
+        "xmain.exe",
+        "-DSFML_STATIC",
+        "-I",
+        "D:/MyFiles/PROGRAMS/SFML-2.5.1-Static/done/SFML/include",
+        "-L",
+        "D:/MyFiles/PROGRAMS/SFML-2.5.1-Static/done/SFML/lib",
+        "-lsfml-graphics-s",
+        "-lsfml-window-s",
+        "-lsfml-audio-s",
+        "-lsfml-system-s",
+        "-lopengl32",
+        "-lwinmm",
+        "-lgdi32",
+        "-lfreetype",
+        "-ljpeg",
+        "-lopenal32",
+        "-lflac",
+        "-lvorbisenc",
+        "-lvorbisfile",
+        "-lvorbis",
+        "-logg"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
