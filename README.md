@@ -20,6 +20,44 @@
 * using frame count to check whether one key has been pressed continuously:
   * e.g. x_counter_obj.f_d_times >= 30
 
+## How to use?
+* keys available:
+
+|      values       |      completed       | flac prepared |
+| ----------------- | -------------------- | ------------- |
+| a-z               | (√)                  | (√)           |
+| 0-9               | (√)                  | (√)           |
+| enter             | (√)                  | (√)           |
+| delete            | (√)                  | (√)           |
+| backspace         | (√)                  | (√)           |
+| blank             | (√)                  | (√)           |
+| big_bracket{}     | (√)                  | (√)           |
+| big_bracket[]     | (√)                  | (√)           |
+| semicolon;        | (√)                  | (√)           |
+| quotation_marks"' | (√)                  | (√)           |
+| <>                | (√)                  | (√)           |
+| /\                | (√)                  | (√)           |
+| ?                 | (√)                  | (√)           |
+| ~                 | (√)                  | (√)           |
+| -                 | (√)                  | (√)           |
+| +                 | (√)                  | (√)           |
+| windows           | (√)                  | (√)           |
+| up                | (√)                  | (√)           |
+| down              | (√)                  | (√)           |
+| left              | (√)                  | (√)           |
+| right             | (√)                  | (√)           |
+| capslock          | (×)--unavailable     | (√)           |
+| tab               | (√)                  | (√)           |
+| shift             | (√)                  | (√)           |
+| control           | (√)                  | (√)           |
+| alt               | (√)                  | (√)           |
+| F1-F12            | (×)--not considering | (×)           |
+| home              | (√)                  | (√)           |
+| end               | (√)                  | (√)           |
+
+* you can change all audios (./msounds directory), if you want, each audio is playing on a seperated thread.
+* Ctrl + Alt + F9 to exit the program, hearing one "dong dong" music and the program will exit by itself.
+
 ## Embedding
 * if you want to embed your program into other programs
 * e.g. python, my xmain.exe was put in XCppHelpers folder

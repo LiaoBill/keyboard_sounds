@@ -1631,15 +1631,6 @@ int main()
     {
       if (x_counter_obj.alt_d <= 2 && x_counter_obj.alt_d >= 0)
       {
-        x_counter_obj.alt_d_times++;
-        if (x_counter_obj.alt_d_times >= 30)
-        {
-          if (is_playing_continue_sound == false)
-          {
-            continue_sound.play();
-            is_playing_continue_sound = true;
-          }
-        }
       }
       else
       {
@@ -1882,15 +1873,6 @@ int main()
     {
       if (x_counter_obj.windows_d <= 2 && x_counter_obj.windows_d >= 0)
       {
-        x_counter_obj.windows_d_times++;
-        if (x_counter_obj.windows_d_times >= 30)
-        {
-          if (is_playing_continue_sound == false)
-          {
-            continue_sound.play();
-            is_playing_continue_sound = true;
-          }
-        }
       }
       else
       {
