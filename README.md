@@ -53,6 +53,17 @@
 | home              | (√)                  | Home                 |
 | end               | (√)                  | End                  |
 
+* combine keys available:
+|  values   | completed |     general idea     |
+| --------- | --------- | -------------------- |
+| ctrl c    | (√)       | copy                 |
+| ctrl v    | (√)       | paste                |
+| ctrl x    | (×)       | cut                  |
+| ctrl z    | (×)       | undo                 |
+| windows+L | (×)       | lock system          |
+| windows+E | (×)       | open explorer        |
+| ctrl+W    | (×)       | close current window |
+
 * you can change all audios (./msounds directory), if you want, each audio is playing on a seperated thread.
 * Ctrl + Alt + F9 to exit the program, hearing one "dong dong" music and the program will exit by itself.
 
