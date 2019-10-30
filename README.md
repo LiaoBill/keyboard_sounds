@@ -54,6 +54,7 @@
 | end               | (√)                  | End                  |
 
 * combine keys available:
+
 |  values   | completed |     general idea     |
 | --------- | --------- | -------------------- |
 | ctrl c    | (√)       | copy                 |
