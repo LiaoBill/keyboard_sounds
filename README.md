@@ -23,37 +23,35 @@
 ## How to use?
 * keys available:
 
-|      values       |      completed       | flac prepared |
-| ----------------- | -------------------- | ------------- |
-| a-z               | (√)                  | (√)           |
-| 0-9               | (√)                  | (√)           |
-| enter             | (√)                  | (√)           |
-| delete            | (√)                  | (√)           |
-| backspace         | (√)                  | (√)           |
-| blank             | (√)                  | (√)           |
-| big_bracket{}     | (√)                  | (√)           |
-| big_bracket[]     | (√)                  | (√)           |
-| semicolon;        | (√)                  | (√)           |
-| quotation_marks"' | (√)                  | (√)           |
-| <>                | (√)                  | (√)           |
-| /\                | (√)                  | (√)           |
-| ?                 | (√)                  | (√)           |
-| ~                 | (√)                  | (√)           |
-| -                 | (√)                  | (√)           |
-| +                 | (√)                  | (√)           |
-| windows           | (√)                  | (√)           |
-| up                | (√)                  | (√)           |
-| down              | (√)                  | (√)           |
-| left              | (√)                  | (√)           |
-| right             | (√)                  | (√)           |
-| capslock          | (×)--unavailable     | (√)           |
-| tab               | (√)                  | (√)           |
-| shift             | (√)                  | (√)           |
-| control           | (√)                  | (√)           |
-| alt               | (√)                  | (√)           |
-| F1-F12            | (×)--not considering | (×)           |
-| home              | (√)                  | (√)           |
-| end               | (√)                  | (√)           |
+|      values       |      completed       |  sf::Keyboard Name   |
+| ----------------- | -------------------- | -------------------- |
+| a-z               | (√)                  | [A-Z]                |
+| 0-9               | (√)                  | Num[0-9]             |
+| enter             | (√)                  | Enter                |
+| delete            | (√)                  | Delete               |
+| backspace         | (√)                  | Backspace            |
+| blank             | (√)                  | Space                |
+| big_bracket{}[]   | (√)                  | LBracket, RBracket   |
+| semicolon;        | (√)                  | Semicolon            |
+| quotation_marks"' | (√)                  | Quote                |
+| [<,][>.]          | (√)                  | Comma, Period        |
+| [?/][\]           | (√)                  | Slash, Backslash     |
+| ~                 | (√)                  | Tilde                |
+| -                 | (√)                  | Hyphen               |
+| +                 | (√)                  | Add                  |
+| windows           | (√)                  | LSystem, RSystem     |
+| up                | (√)                  | Up                   |
+| down              | (√)                  | Down                 |
+| left              | (√)                  | Right                |
+| right             | (√)                  | Left                 |
+| capslock          | (×)--unavailable     | [NONE]               |
+| tab               | (√)                  | Tab                  |
+| shift             | (√)                  | LShift, RShift       |
+| control           | (√)                  | LCtrl, RCtrl         |
+| alt               | (√)                  | LAlt RAlt            |
+| F1-F12            | (×)--not considering | (×)--not considering |
+| home              | (√)                  | Home                 |
+| end               | (√)                  | End                  |
 
 * you can change all audios (./msounds directory), if you want, each audio is playing on a seperated thread.
 * Ctrl + Alt + F9 to exit the program, hearing one "dong dong" music and the program will exit by itself.
