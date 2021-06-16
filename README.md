@@ -1,5 +1,18 @@
 # keyboard_sounds
 
+## 写在前面
+* 很抱歉于 2019/10/30 -- 2021/06/17 期间因忙于学业一直没有更新, 近期毕业了将陆续开始恢复更新和维护.
+
+## 等待开发的需求
+* mac版本迁移
+ * 将sfml打包进可执行app
+* windows小图标, 小黑窗取消
+* combine keys会包含单key触发音 -- 修正
+* 性能
+* 连续音的触发方式
+
+---
+
 * sfml based global keyboard sound generator, ctrl+alt+f9 to exit, using nintendo switch sounds, enjoy~
 
 ## file description:
